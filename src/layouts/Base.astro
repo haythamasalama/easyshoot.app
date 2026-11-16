@@ -84,6 +84,17 @@ const jsonLd = {
   document.documentElement.classList.add("js");
   try { var t = localStorage.getItem("easyshoot-theme"); if (t === "light" || t === "dark") document.documentElement.dataset.theme = t; } catch (e) {}
 </script>
+<script is:inline>
+  // Google Analytics counts visits. Consent Mode keeps it cookieless in the EU, the UK and Switzerland, and ads are off everywhere.
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag("consent", "default", { ad_storage: "denied", ad_user_data: "denied", ad_personalization: "denied", analytics_storage: "granted" });
+  gtag("consent", "default", { analytics_storage: "denied", region: ["AT", "BE", "BG", "HR", "CY", "CZ", "DK", "EE", "FI", "FR", "DE", "GR", "HU", "IS", "IE", "IT", "LV", "LI", "LT", "LU", "MT", "NL", "NO", "PL", "PT", "RO", "SK", "SI", "ES", "SE", "GB", "CH"] });
+  gtag("set", "ads_data_redaction", true);
+  gtag("js", new Date());
+  gtag("config", "G-HBK5LLC45T", { allow_google_signals: false, allow_ad_personalization_signals: false });
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-HBK5LLC45T"></script>
 <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
 </head>
 <body>
