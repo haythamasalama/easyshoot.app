@@ -73,6 +73,16 @@
               "h": "Improved",
               "items": [
                 [
+                  "✋",
+                  "A shape stays selected",
+                  "After you draw a mark it stays selected, so you can resize, move or recolour it right away. Click away or press Esc, then ⌘C copies the image."
+                ],
+                [
+                  "🔔",
+                  "Quieter update news",
+                  "Most Macs install App Store updates on their own, so a new version now shows as Update Available in the menu bar menu and an Update button in Settings › General. The window opens by itself only once, if your Mac hasn't installed the update three days after it comes out."
+                ],
+                [
                   "🗂️",
                   "Quick Access has its own page",
                   "Show after capture, Close after and Position moved out of General into Settings › Quick Access."
@@ -81,11 +91,6 @@
                   "🎯",
                   "A quieter capture hint",
                   "The hint while you capture is smaller and lighter, with esc on a soft key."
-                ],
-                [
-                  "🎨",
-                  "A clearer Style panel",
-                  "A line above the colours says whether a change goes to the selected mark or to the next one you draw."
                 ]
               ]
             },
@@ -123,6 +128,16 @@
               "h": "تحسينات",
               "items": [
                 [
+                  "✋",
+                  "يبقى الشكل محددًا",
+                  "بعد رسم أي علامة تبقى محددة، فتغيّر حجمها أو تنقلها أو تغيّر لونها فورًا. انقر خارجها أو اضغط ⁦Esc⁩، ثم ينسخ ⁦⌘C⁩ الصورة."
+                ],
+                [
+                  "🔔",
+                  "إشعار تحديث أهدأ",
+                  "معظم أجهزة الماك تثبّت تحديثات App Store تلقائيًا، لذلك يظهر الإصدار الجديد الآن بسطر «تحديث متوفر» في قائمة شريط القوائم وزر «تحديث» في الإعدادات › عام. ولا تظهر النافذة وحدها إلا مرة واحدة، إن لم يثبّت جهازك التحديث بعد ثلاثة أيام من صدوره."
+                ],
+                [
                   "🗂️",
                   "صفحة خاصة للوصول السريع",
                   "انتقلت «الإظهار بعد الالتقاط» و«الإغلاق بعد» و«المكان» من «عام» إلى الإعدادات › الوصول السريع."
@@ -131,11 +146,6 @@
                   "🎯",
                   "تلميح أهدأ أثناء الالتقاط",
                   "التلميح الذي يظهر أثناء الالتقاط صار أصغر وأخف، ومفتاح ⁦esc⁩ في كبسولة ناعمة."
-                ],
-                [
-                  "🎨",
-                  "لوحة نمط أوضح",
-                  "سطر فوق الألوان يوضّح هل التغيير للعنصر المحدد أم للعنصر الذي سترسمه بعده."
                 ]
               ]
             },
@@ -173,6 +183,16 @@
               "h": "Améliorations",
               "items": [
                 [
+                  "✋",
+                  "Une forme reste sélectionnée",
+                  "Après le tracé, l’annotation reste sélectionnée pour la redimensionner, la déplacer ou changer sa couleur tout de suite. Cliquez à côté ou appuyez sur Échap, puis ⌘C copie l’image."
+                ],
+                [
+                  "🔔",
+                  "Des avis de mise à jour discrets",
+                  "La plupart des Mac installent seuls les mises à jour de l’App Store : une nouvelle version s’affiche donc dans le menu de la barre des menus et par un bouton Mettre à jour dans Réglages › Général. La fenêtre ne s’ouvre seule qu’une fois, si votre Mac n’a pas installé la mise à jour trois jours après sa sortie."
+                ],
+                [
                   "🗂️",
                   "L’accès rapide a sa propre page",
                   "Afficher après la capture, Fermer après et Position passent de Général à Réglages › Accès rapide."
@@ -181,11 +201,6 @@
                   "🎯",
                   "Une indication plus discrète",
                   "L’indication pendant la capture est plus petite et plus légère, avec esc sur une touche douce."
-                ],
-                [
-                  "🎨",
-                  "Un panneau Style plus clair",
-                  "Une ligne au-dessus des couleurs indique si un changement s’applique à l’annotation sélectionnée ou à la prochaine que vous dessinez."
                 ]
               ]
             },
@@ -223,6 +238,16 @@
               "h": "Mejoras",
               "items": [
                 [
+                  "✋",
+                  "La forma sigue seleccionada",
+                  "Al terminar de dibujar, la marca sigue seleccionada para cambiar su tamaño, moverla o cambiar su color al momento. Haz clic fuera o pulsa Esc, y ⌘C copia la imagen."
+                ],
+                [
+                  "🔔",
+                  "Avisos de actualización discretos",
+                  "La mayoría de los Mac instalan solos las actualizaciones del App Store, así que una versión nueva aparece en el menú de la barra de menús y con un botón Actualizar en Ajustes › General. La ventana solo se abre sola una vez, si tu Mac no ha instalado la actualización tres días después de salir."
+                ],
+                [
                   "🗂️",
                   "El acceso rápido tiene su propia página",
                   "Mostrar tras la captura, Cerrar tras y Posición pasan de General a Ajustes › Acceso rápido."
@@ -231,11 +256,6 @@
                   "🎯",
                   "Una indicación más discreta",
                   "La indicación mientras capturas es más pequeña y ligera, con esc en una tecla suave."
-                ],
-                [
-                  "🎨",
-                  "Un panel Estilo más claro",
-                  "Una línea sobre los colores indica si un cambio se aplica a la marca seleccionada o a la siguiente que dibujes."
                 ]
               ]
             },
@@ -273,6 +293,16 @@
               "h": "Verbessert",
               "items": [
                 [
+                  "✋",
+                  "Eine Form bleibt ausgewählt",
+                  "Nach dem Zeichnen bleibt die Markierung ausgewählt, damit du sie gleich skalieren, bewegen oder umfärben kannst. Klick daneben oder drücke Esc, dann kopiert ⌘C das Bild."
+                ],
+                [
+                  "🔔",
+                  "Ruhigere Update-Hinweise",
+                  "Die meisten Macs installieren App-Store-Updates selbst, darum zeigt sich eine neue Version jetzt im Menü der Menüleiste und mit einer Taste Aktualisieren in Einstellungen › Allgemein. Das Fenster öffnet sich nur einmal von selbst, wenn dein Mac das Update drei Tage nach Erscheinen nicht installiert hat."
+                ],
+                [
                   "🗂️",
                   "Der Schnellzugriff hat eine eigene Seite",
                   "Nach der Aufnahme anzeigen, Schließen nach und Position sind von Allgemein nach Einstellungen › Schnellzugriff gezogen."
@@ -281,11 +311,6 @@
                   "🎯",
                   "Ein ruhigerer Hinweis",
                   "Der Hinweis beim Aufnehmen ist kleiner und leichter, mit esc auf einer weichen Taste."
-                ],
-                [
-                  "🎨",
-                  "Ein klarerer Stil-Bereich",
-                  "Eine Zeile über den Farben zeigt, ob eine Änderung für die ausgewählte Markierung oder die nächste gilt, die du zeichnest."
                 ]
               ]
             },

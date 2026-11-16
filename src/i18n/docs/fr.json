@@ -49,7 +49,7 @@
       "title": "Accès rapide",
       "short": "Ce qui se passe juste après une capture.",
       "description": "L’accès rapide d’EasyShoot : copiez, enregistrez, modifiez ou glissez une capture juste après l’avoir prise, et choisissez ce qui se passe à chaque capture.",
-      "intro": "Après chaque capture, l’accès rapide affiche une vignette dans le coin de l’écran. Copiez-la, enregistrez-la, ouvrez-la dans l’éditeur ou glissez-la dans une autre app.",
+      "intro": "Après chaque capture, l’accès rapide affiche une vignette au bord de l’écran, en bas à gauche sauf si vous choisissez un autre emplacement. Copiez-la, enregistrez-la, ouvrez-la dans l’éditeur ou glissez-la dans une autre app.",
       "blocks": [
         {
           "h2": "Raccourcis clavier",
@@ -57,7 +57,7 @@
         },
         {
           "h2": "Choisir ce qui se passe",
-          "html": "<p>Réglages › Général décide de ce qui se fait tout seul. Sous <strong>Après la capture</strong> :</p><ul><li><strong>Copier dans le presse-papiers</strong></li><li><strong>Enregistrer dans un dossier</strong></li><li><strong>Ouvrir dans l’éditeur</strong></li><li><strong>Jouer un son</strong></li></ul><p>Si <strong>Ouvrir dans l’éditeur</strong> est activé, l’éditeur s’ouvre à la place de la vignette.</p><p>Sous <strong>Accès rapide</strong>, <strong>Afficher après la capture</strong> active ou désactive la vignette, et <strong>Fermer après</strong> règle combien de temps elle reste affichée : jamais, 5, 10 ou 30 secondes.</p>"
+          "html": "<p>Réglages › Général décide de ce qui se fait tout seul. Sous <strong>Après la capture</strong> :</p><ul><li><strong>Copier dans le presse-papiers</strong></li><li><strong>Enregistrer dans un dossier</strong></li><li><strong>Ouvrir dans l’éditeur</strong></li><li><strong>Jouer un son</strong></li></ul><p>Si <strong>Ouvrir dans l’éditeur</strong> est activé, l’éditeur s’ouvre à la place de la vignette.</p><p>Réglages › Accès rapide regroupe les réglages de la vignette : <strong>Afficher après la capture</strong> l’active ou la désactive, <strong>Fermer après</strong> règle combien de temps elle reste (jamais, 5, 10 ou 30 secondes), et <strong>Position</strong> choisit où elle apparaît : en haut ou en bas, à gauche, au centre ou à droite.</p>"
         }
       ]
     },
@@ -74,7 +74,7 @@
         },
         {
           "h2": "Modifier un repère",
-          "html": "<p>Appuyez sur <kbd dir=\"ltr\">V</kbd> pour sélectionner. Faites glisser un repère pour le déplacer, un de ses quatre coins pour le redimensionner, et appuyez sur Supprimer pour l’effacer. Un nouveau repère se désélectionne une fois tracé. Avec un outil de dessin en main, cliquez sur un repère pour le sélectionner, ou maintenez Option pour dessiner par-dessus. Copiez, coupez, collez et dupliquez les repères avec <kbd dir=\"ltr\">⌘C</kbd>, <kbd dir=\"ltr\">⌘X</kbd>, <kbd dir=\"ltr\">⌘V</kbd> et <kbd dir=\"ltr\">⌘D</kbd>. Chaque repère reste modifiable jusqu’à l’export.</p>"
+          "html": "<p>Appuyez sur <kbd dir=\"ltr\">V</kbd> pour sélectionner. Faites glisser un repère pour le déplacer, un de ses quatre coins pour le redimensionner, et appuyez sur Supprimer pour l’effacer. Un nouveau repère reste sélectionné une fois tracé, pour le redimensionner, le déplacer ou changer sa couleur tout de suite ; cliquez à côté ou appuyez sur <kbd dir=\"ltr\">Échap</kbd> pour le désélectionner. Sans sélection, <kbd dir=\"ltr\">⌘C</kbd> copie l’image entière. Avec un outil de dessin en main, cliquez sur un repère pour le sélectionner, ou maintenez Option pour dessiner par-dessus. Copiez, coupez, collez et dupliquez les repères avec <kbd dir=\"ltr\">⌘C</kbd>, <kbd dir=\"ltr\">⌘X</kbd>, <kbd dir=\"ltr\">⌘V</kbd> et <kbd dir=\"ltr\">⌘D</kbd>. Chaque repère reste modifiable jusqu’à l’export.</p>"
         }
       ]
     },
@@ -190,12 +190,12 @@
     },
     "settings": {
       "title": "Réglages",
-      "short": "Général, Raccourcis, Préréglages, Autorisations et À propos.",
-      "description": "Ce que fait chaque partie des réglages d’EasyShoot : Général, Raccourcis, Préréglages, Autorisations et À propos.",
+      "short": "Général, Accès rapide, Raccourcis, Préréglages, Autorisations et À propos.",
+      "description": "Ce que fait chaque partie des réglages d’EasyShoot : Général, Accès rapide, Raccourcis, Préréglages, Autorisations et À propos.",
       "intro": "Ouvrez Réglages… depuis l’icône de la barre des menus, ou appuyez sur ⌘, quand EasyShoot est au premier plan.",
       "blocks": [
         {
-          "html": "<ul class=\"feature-grid\"><li><strong>Général</strong>Ce qui se passe après la capture, le dossier d’enregistrement, l’accès rapide, l’éditeur et les mises à jour.</li><li><strong>Raccourcis</strong>Enregistrez vos raccourcis de capture, et consultez toutes les touches de l’éditeur.</li><li><strong>Préréglages</strong>Vos préréglages, celui qu’utilisent les nouvelles captures, et 12 styles prêts à ajouter.</li><li><strong>Autorisations</strong>Vérifiez l’enregistrement de l’écran, nécessaire à chaque capture, et redémarrez EasyShoot.</li><li><strong>À propos</strong>Notez EasyShoot sur l’App Store, visitez le site web ou obtenez de l’aide.</li></ul>"
+          "html": "<ul class=\"feature-grid\"><li><strong>Général</strong>Ce qui se passe après la capture, le dossier d’enregistrement, l’éditeur et les mises à jour.</li><li><strong>Accès rapide</strong>Afficher ou masquer la vignette, sa durée et son emplacement à l’écran.</li><li><strong>Raccourcis</strong>Enregistrez vos raccourcis de capture, et consultez toutes les touches de l’éditeur.</li><li><strong>Préréglages</strong>Vos préréglages, celui qu’utilisent les nouvelles captures, et 12 styles prêts à ajouter.</li><li><strong>Autorisations</strong>Vérifiez l’enregistrement de l’écran, nécessaire à chaque capture, et redémarrez EasyShoot.</li><li><strong>À propos</strong>Notez EasyShoot sur l’App Store, visitez le site web ou obtenez de l’aide.</li></ul>"
         }
       ]
     },

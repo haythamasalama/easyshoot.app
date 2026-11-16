@@ -49,7 +49,7 @@
       "title": "Acceso rápido",
       "short": "Lo que pasa justo después de capturar.",
       "description": "El acceso rápido de EasyShoot: copia, guarda, edita o arrastra una captura justo después de hacerla, y elige qué pasa tras cada captura.",
-      "intro": "Tras cada captura, el acceso rápido muestra una miniatura en la esquina de la pantalla. Cópiala, guárdala, ábrela en el editor o arrástrala a otra app.",
+      "intro": "Tras cada captura, el acceso rápido muestra una miniatura en el borde de la pantalla, abajo a la izquierda salvo que elijas otra posición. Cópiala, guárdala, ábrela en el editor o arrástrala a otra app.",
       "blocks": [
         {
           "h2": "Atajos de teclado",
@@ -57,7 +57,7 @@
         },
         {
           "h2": "Elige qué pasa",
-          "html": "<p>Ajustes › General decide lo que pasa solo. En <strong>Después de capturar</strong>:</p><ul><li><strong>Copiar al portapapeles</strong></li><li><strong>Guardar en carpeta</strong></li><li><strong>Abrir en el editor</strong></li><li><strong>Reproducir sonido</strong></li></ul><p>Si activas <strong>Abrir en el editor</strong>, se abre el editor en lugar de la miniatura.</p><p>En <strong>Acceso rápido</strong>, <strong>Mostrar tras la captura</strong> activa o desactiva la miniatura, y <strong>Cerrar tras</strong> fija cuánto dura: nunca, 5, 10 o 30 segundos.</p>"
+          "html": "<p>Ajustes › General decide lo que pasa solo. En <strong>Después de capturar</strong>:</p><ul><li><strong>Copiar al portapapeles</strong></li><li><strong>Guardar en carpeta</strong></li><li><strong>Abrir en el editor</strong></li><li><strong>Reproducir sonido</strong></li></ul><p>Si activas <strong>Abrir en el editor</strong>, se abre el editor en lugar de la miniatura.</p><p>Ajustes › Acceso rápido reúne los ajustes de la miniatura: <strong>Mostrar tras la captura</strong> la activa o desactiva, <strong>Cerrar tras</strong> fija cuánto dura (nunca, 5, 10 o 30 segundos) y <strong>Posición</strong> elige dónde aparece: arriba o abajo, a la izquierda, en el centro o a la derecha.</p>"
         }
       ]
     },
@@ -74,7 +74,7 @@
         },
         {
           "h2": "Cambiar una marca",
-          "html": "<p>Pulsa <kbd dir=\"ltr\">V</kbd> para seleccionar. Arrastra una marca para moverla, una de sus cuatro esquinas para cambiar su tamaño, y pulsa Suprimir para borrarla. Una marca nueva se deselecciona al terminar de dibujarla. Con una herramienta de dibujo en la mano, pulsa sobre una marca para seleccionarla, o mantén Opción para dibujar encima. Copia, corta, pega y duplica marcas con <kbd dir=\"ltr\">⌘C</kbd>, <kbd dir=\"ltr\">⌘X</kbd>, <kbd dir=\"ltr\">⌘V</kbd> y <kbd dir=\"ltr\">⌘D</kbd>. Cada marca sigue siendo editable hasta que exportas.</p>"
+          "html": "<p>Pulsa <kbd dir=\"ltr\">V</kbd> para seleccionar. Arrastra una marca para moverla, una de sus cuatro esquinas para cambiar su tamaño, y pulsa Suprimir para borrarla. Una marca nueva sigue seleccionada al terminar de dibujarla, para cambiar su tamaño, moverla o cambiar su color al momento; haz clic fuera o pulsa <kbd dir=\"ltr\">Esc</kbd> para deseleccionarla. Sin nada seleccionado, <kbd dir=\"ltr\">⌘C</kbd> copia la imagen entera. Con una herramienta de dibujo en la mano, pulsa sobre una marca para seleccionarla, o mantén Opción para dibujar encima. Copia, corta, pega y duplica marcas con <kbd dir=\"ltr\">⌘C</kbd>, <kbd dir=\"ltr\">⌘X</kbd>, <kbd dir=\"ltr\">⌘V</kbd> y <kbd dir=\"ltr\">⌘D</kbd>. Cada marca sigue siendo editable hasta que exportas.</p>"
         }
       ]
     },
@@ -190,12 +190,12 @@
     },
     "settings": {
       "title": "Ajustes",
-      "short": "General, Atajos, Preajustes, Permisos y Acerca de.",
-      "description": "Qué hace cada parte de los ajustes de EasyShoot: General, Atajos, Preajustes, Permisos y Acerca de.",
+      "short": "General, Acceso rápido, Atajos, Preajustes, Permisos y Acerca de.",
+      "description": "Qué hace cada parte de los ajustes de EasyShoot: General, Acceso rápido, Atajos, Preajustes, Permisos y Acerca de.",
       "intro": "Abre Ajustes… desde el icono de la barra de menús, o pulsa ⌘, con EasyShoot delante.",
       "blocks": [
         {
-          "html": "<ul class=\"feature-grid\"><li><strong>General</strong>Qué pasa después de capturar, la carpeta de guardado, el acceso rápido, el editor y las actualizaciones.</li><li><strong>Atajos</strong>Graba tus atajos de captura y consulta todas las teclas del editor.</li><li><strong>Preajustes</strong>Tus preajustes, el que usan las capturas nuevas y 12 estilos listos para añadir.</li><li><strong>Permisos</strong>Comprueba la grabación de pantalla, que necesita cada captura, y reinicia EasyShoot.</li><li><strong>Acerca de</strong>Valora EasyShoot en el App Store, visita la web u obtén ayuda.</li></ul>"
+          "html": "<ul class=\"feature-grid\"><li><strong>General</strong>Qué pasa después de capturar, la carpeta de guardado, el editor y las actualizaciones.</li><li><strong>Acceso rápido</strong>Mostrar u ocultar la miniatura, cuánto dura y dónde aparece en la pantalla.</li><li><strong>Atajos</strong>Graba tus atajos de captura y consulta todas las teclas del editor.</li><li><strong>Preajustes</strong>Tus preajustes, el que usan las capturas nuevas y 12 estilos listos para añadir.</li><li><strong>Permisos</strong>Comprueba la grabación de pantalla, que necesita cada captura, y reinicia EasyShoot.</li><li><strong>Acerca de</strong>Valora EasyShoot en el App Store, visita la web u obtén ayuda.</li></ul>"
         }
       ]
     },

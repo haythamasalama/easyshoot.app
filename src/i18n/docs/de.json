@@ -49,7 +49,7 @@
       "title": "Schnellzugriff",
       "short": "Was direkt nach einer Aufnahme passiert.",
       "description": "Der Schnellzugriff in EasyShoot: Screenshots direkt nach der Aufnahme kopieren, sichern, bearbeiten oder ziehen, und festlegen, was danach passiert.",
-      "intro": "Nach jeder Aufnahme zeigt der Schnellzugriff eine Miniatur in der Bildschirmecke. Kopiere sie, sichere sie, öffne sie im Editor oder zieh sie direkt in eine andere App.",
+      "intro": "Nach jeder Aufnahme zeigt der Schnellzugriff eine Miniatur am Bildschirmrand, unten links, wenn du keine andere Stelle wählst. Kopiere sie, sichere sie, öffne sie im Editor oder zieh sie direkt in eine andere App.",
       "blocks": [
         {
           "h2": "Tastaturkurzbefehle",
@@ -57,7 +57,7 @@
         },
         {
           "h2": "Festlegen, was passiert",
-          "html": "<p>Einstellungen › Allgemein legt fest, was von selbst passiert. Unter <strong>Nach der Aufnahme</strong>:</p><ul><li><strong>In die Zwischenablage kopieren</strong></li><li><strong>In Ordner sichern</strong></li><li><strong>Im Editor öffnen</strong></li><li><strong>Ton abspielen</strong></li></ul><p>Ist <strong>Im Editor öffnen</strong> an, öffnet sich statt der Miniatur der Editor.</p><p>Unter <strong>Schnellzugriff</strong> schaltet <strong>Nach der Aufnahme anzeigen</strong> die Miniatur ein oder aus, und <strong>Schließen nach</strong> legt fest, wie lange sie bleibt: nie, 5, 10 oder 30 Sekunden.</p>"
+          "html": "<p>Einstellungen › Allgemein legt fest, was von selbst passiert. Unter <strong>Nach der Aufnahme</strong>:</p><ul><li><strong>In die Zwischenablage kopieren</strong></li><li><strong>In Ordner sichern</strong></li><li><strong>Im Editor öffnen</strong></li><li><strong>Ton abspielen</strong></li></ul><p>Ist <strong>Im Editor öffnen</strong> an, öffnet sich statt der Miniatur der Editor.</p><p>Einstellungen › Schnellzugriff hat die Einstellungen der Miniatur: <strong>Nach der Aufnahme anzeigen</strong> schaltet sie ein oder aus, <strong>Schließen nach</strong> legt fest, wie lange sie bleibt (nie, 5, 10 oder 30 Sekunden), und <strong>Position</strong> wählt, wo sie erscheint: oben oder unten, links, in der Mitte oder rechts.</p>"
         }
       ]
     },
@@ -74,7 +74,7 @@
         },
         {
           "h2": "Eine Markierung ändern",
-          "html": "<p>Drücke <kbd dir=\"ltr\">V</kbd> zum Auswählen. Zieh eine Markierung, um sie zu bewegen, eine ihrer vier Ecken, um die Größe zu ändern, und drücke Entfernen, um sie zu löschen. Eine neue Markierung wird nach dem Zeichnen abgewählt. Mit einem Zeichenwerkzeug in der Hand wählst du eine Markierung per Klick aus, oder hältst Wahl gedrückt, um darüber zu zeichnen. Kopieren, ausschneiden, einsetzen und duplizieren mit <kbd dir=\"ltr\">⌘C</kbd>, <kbd dir=\"ltr\">⌘X</kbd>, <kbd dir=\"ltr\">⌘V</kbd> und <kbd dir=\"ltr\">⌘D</kbd>. Jede Markierung bleibt bis zum Export bearbeitbar.</p>"
+          "html": "<p>Drücke <kbd dir=\"ltr\">V</kbd> zum Auswählen. Zieh eine Markierung, um sie zu bewegen, eine ihrer vier Ecken, um die Größe zu ändern, und drücke Entfernen, um sie zu löschen. Eine neue Markierung bleibt nach dem Zeichnen ausgewählt, damit du sie gleich skalieren, bewegen oder umfärben kannst; klick daneben oder drücke <kbd dir=\"ltr\">Esc</kbd>, um sie abzuwählen. Ist nichts ausgewählt, kopiert <kbd dir=\"ltr\">⌘C</kbd> das ganze Bild. Mit einem Zeichenwerkzeug in der Hand wählst du eine Markierung per Klick aus, oder hältst Wahl gedrückt, um darüber zu zeichnen. Kopieren, ausschneiden, einsetzen und duplizieren mit <kbd dir=\"ltr\">⌘C</kbd>, <kbd dir=\"ltr\">⌘X</kbd>, <kbd dir=\"ltr\">⌘V</kbd> und <kbd dir=\"ltr\">⌘D</kbd>. Jede Markierung bleibt bis zum Export bearbeitbar.</p>"
         }
       ]
     },
@@ -190,12 +190,12 @@
     },
     "settings": {
       "title": "Einstellungen",
-      "short": "Allgemein, Kurzbefehle, Vorlagen, Berechtigungen und Über.",
-      "description": "Was jeder Teil der EasyShoot-Einstellungen macht: Allgemein, Kurzbefehle, Vorlagen, Berechtigungen und Über.",
+      "short": "Allgemein, Schnellzugriff, Kurzbefehle, Vorlagen, Berechtigungen und Über.",
+      "description": "Was jeder Teil der EasyShoot-Einstellungen macht: Allgemein, Schnellzugriff, Kurzbefehle, Vorlagen, Berechtigungen und Über.",
       "intro": "Öffne Einstellungen … über das Symbol in der Menüleiste, oder drücke ⌘, wenn EasyShoot vorne ist.",
       "blocks": [
         {
-          "html": "<ul class=\"feature-grid\"><li><strong>Allgemein</strong>Was nach der Aufnahme passiert, der Speicherordner, der Schnellzugriff, der Editor und Updates.</li><li><strong>Kurzbefehle</strong>Nimm deine Aufnahme-Kürzel auf und sieh dir alle Editor-Tasten an.</li><li><strong>Vorlagen</strong>Deine Vorlagen, die Vorlage für neue Aufnahmen und 12 fertige Looks zum Hinzufügen.</li><li><strong>Berechtigungen</strong>Prüfe die Bildschirmaufnahme, die jeder Screenshot braucht, und starte EasyShoot neu.</li><li><strong>Über</strong>Bewerte EasyShoot im App Store, besuche die Website oder hol dir Support.</li></ul>"
+          "html": "<ul class=\"feature-grid\"><li><strong>Allgemein</strong>Was nach der Aufnahme passiert, der Speicherordner, der Editor und Updates.</li><li><strong>Schnellzugriff</strong>Miniatur ein- oder ausblenden, wie lange sie bleibt und wo sie auf dem Bildschirm erscheint.</li><li><strong>Kurzbefehle</strong>Nimm deine Aufnahme-Kürzel auf und sieh dir alle Editor-Tasten an.</li><li><strong>Vorlagen</strong>Deine Vorlagen, die Vorlage für neue Aufnahmen und 12 fertige Looks zum Hinzufügen.</li><li><strong>Berechtigungen</strong>Prüfe die Bildschirmaufnahme, die jeder Screenshot braucht, und starte EasyShoot neu.</li><li><strong>Über</strong>Bewerte EasyShoot im App Store, besuche die Website oder hol dir Support.</li></ul>"
         }
       ]
     },
