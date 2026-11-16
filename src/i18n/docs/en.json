@@ -49,7 +49,7 @@
       "title": "Quick Access",
       "short": "What happens right after a capture.",
       "description": "Quick Access in EasyShoot: copy, save, edit or drag a screenshot right after you take it, and choose what happens after every capture.",
-      "intro": "After every capture, Quick Access shows a thumbnail in the corner of the screen. Copy it, save it, open it in the editor or drag it straight into another app.",
+      "intro": "After every capture, Quick Access shows a thumbnail at the edge of the screen, bottom left unless you pick another spot. Copy it, save it, open it in the editor or drag it straight into another app.",
       "blocks": [
         {
           "h2": "Keyboard shortcuts",
@@ -57,7 +57,7 @@
         },
         {
           "h2": "Choose what happens",
-          "html": "<p>Settings › General decides what happens on its own. Under <strong>After capture</strong>:</p><ul><li><strong>Copy to clipboard</strong></li><li><strong>Save to folder</strong></li><li><strong>Open in editor</strong></li><li><strong>Play sound</strong></li></ul><p>When <strong>Open in editor</strong> is on, the editor opens instead of the thumbnail.</p><p>Under <strong>Quick Access</strong>, <strong>Show after capture</strong> turns the thumbnail on or off, and <strong>Close after</strong> sets how long it stays: never, 5, 10 or 30 seconds.</p>"
+          "html": "<p>Settings › General decides what happens on its own. Under <strong>After capture</strong>:</p><ul><li><strong>Copy to clipboard</strong></li><li><strong>Save to folder</strong></li><li><strong>Open in editor</strong></li><li><strong>Play sound</strong></li></ul><p>When <strong>Open in editor</strong> is on, the editor opens instead of the thumbnail.</p><p>Settings › Quick Access has the thumbnail's own settings: <strong>Show after capture</strong> turns it on or off, <strong>Close after</strong> sets how long it stays (never, 5, 10 or 30 seconds), and <strong>Position</strong> picks where it appears: top or bottom, on the left, in the centre or on the right.</p>"
         }
       ]
     },
@@ -74,7 +74,7 @@
         },
         {
           "h2": "Change a mark",
-          "html": "<p>Press <kbd dir=\"ltr\">V</kbd> to select. Drag a mark to move it, drag one of its four corners to resize it, and press Delete to remove it. A new mark lets go once it's drawn. With a drawing tool in hand, press on a mark to select it, or hold Option to draw over it. Copy, cut, paste and duplicate marks with <kbd dir=\"ltr\">⌘C</kbd>, <kbd dir=\"ltr\">⌘X</kbd>, <kbd dir=\"ltr\">⌘V</kbd> and <kbd dir=\"ltr\">⌘D</kbd>. Every mark stays editable until you export.</p>"
+          "html": "<p>Press <kbd dir=\"ltr\">V</kbd> to select. Drag a mark to move it, drag one of its four corners to resize it, and press Delete to remove it. A new mark stays selected once it's drawn, so you can resize, move or recolour it right away; click away or press <kbd dir=\"ltr\">Esc</kbd> to let go. With nothing selected, <kbd dir=\"ltr\">⌘C</kbd> copies the whole image. With a drawing tool in hand, press on a mark to select it, or hold Option to draw over it. Copy, cut, paste and duplicate marks with <kbd dir=\"ltr\">⌘C</kbd>, <kbd dir=\"ltr\">⌘X</kbd>, <kbd dir=\"ltr\">⌘V</kbd> and <kbd dir=\"ltr\">⌘D</kbd>. Every mark stays editable until you export.</p>"
         }
       ]
     },
@@ -190,12 +190,12 @@
     },
     "settings": {
       "title": "Settings",
-      "short": "General, Shortcuts, Presets, Permissions and About.",
-      "description": "What each part of EasyShoot's Settings does: General, Shortcuts, Presets, Permissions and About.",
+      "short": "General, Quick Access, Shortcuts, Presets, Permissions and About.",
+      "description": "What each part of EasyShoot's Settings does: General, Quick Access, Shortcuts, Presets, Permissions and About.",
       "intro": "Open Settings… from the menu bar icon, or press ⌘, while EasyShoot is in front.",
       "blocks": [
         {
-          "html": "<ul class=\"feature-grid\"><li><strong>General</strong>What happens after capture, the save folder, Quick Access, the editor and updates.</li><li><strong>Shortcuts</strong>Record your capture shortcuts, and see every editor key.</li><li><strong>Presets</strong>Your presets, the one new captures use, and 12 starter looks to add.</li><li><strong>Permissions</strong>Check Screen Recording, which every screenshot needs, and restart EasyShoot.</li><li><strong>About</strong>Rate EasyShoot on the App Store, visit the website or get support.</li></ul>"
+          "html": "<ul class=\"feature-grid\"><li><strong>General</strong>What happens after capture, the save folder, the editor and updates.</li><li><strong>Quick Access</strong>Show or hide the thumbnail, how long it stays, and where on the screen it appears.</li><li><strong>Shortcuts</strong>Record your capture shortcuts, and see every editor key.</li><li><strong>Presets</strong>Your presets, the one new captures use, and 12 starter looks to add.</li><li><strong>Permissions</strong>Check Screen Recording, which every screenshot needs, and restart EasyShoot.</li><li><strong>About</strong>Rate EasyShoot on the App Store, visit the website or get support.</li></ul>"
         }
       ]
     },
