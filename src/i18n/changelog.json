@@ -48,8 +48,264 @@
   },
   "releases": [
     {
-      "version": "1.1.0",
+      "version": "1.2.0",
       "date": "",
+      "notes": {
+        "en": {
+          "intro": "Choose where Quick Access appears, update without leaving EasyShoot, and a quieter hint while you capture.",
+          "groups": [
+            {
+              "h": "New",
+              "items": [
+                [
+                  "📍",
+                  "Choose where thumbnails appear",
+                  "Settings › Quick Access › Position shows a small screen with six spots: top or bottom, on the left, in the centre or on the right. Thumbnails stack from the spot you pick; bottom left stays the default."
+                ],
+                [
+                  "⬇️",
+                  "Update from inside EasyShoot",
+                  "When a new version is out, Update opens EasyShoot's App Store page in a window inside the app, so you install it without leaving."
+                ]
+              ]
+            },
+            {
+              "h": "Improved",
+              "items": [
+                [
+                  "🗂️",
+                  "Quick Access has its own page",
+                  "Show after capture, Close after and Position moved out of General into Settings › Quick Access."
+                ],
+                [
+                  "🎯",
+                  "A quieter capture hint",
+                  "The hint while you capture is smaller and lighter, with esc on a soft key."
+                ],
+                [
+                  "🎨",
+                  "A clearer Style panel",
+                  "A line above the colours says whether a change goes to the selected mark or to the next one you draw."
+                ]
+              ]
+            },
+            {
+              "h": "Fixed",
+              "items": [
+                [
+                  "⌨️",
+                  "No highlight when Settings opens",
+                  "With keyboard navigation on, Settings › About no longer opens with a ring around Rate on the App Store."
+                ]
+              ]
+            }
+          ]
+        },
+        "ar": {
+          "intro": "اختر مكان ظهور الوصول السريع، وحدّث EasyShoot دون أن تغادره، وتلميح أهدأ أثناء الالتقاط.",
+          "groups": [
+            {
+              "h": "جديد",
+              "items": [
+                [
+                  "📍",
+                  "اختر مكان ظهور الصور المصغّرة",
+                  "في الإعدادات › الوصول السريع › المكان شاشة صغيرة فيها ستة أماكن: أعلى أو أسفل، يسارًا أو في الوسط أو يمينًا. تظهر الصور المصغّرة في المكان الذي تختاره، ويبقى أسفل اليسار هو الافتراضي."
+                ],
+                [
+                  "⬇️",
+                  "حدّث من داخل EasyShoot",
+                  "حين يصدر إصدار جديد، يفتح زر «تحديث» صفحة EasyShoot في App Store في نافذة داخل التطبيق، فتثبّته دون أن تغادره."
+                ]
+              ]
+            },
+            {
+              "h": "تحسينات",
+              "items": [
+                [
+                  "🗂️",
+                  "صفحة خاصة للوصول السريع",
+                  "انتقلت «الإظهار بعد الالتقاط» و«الإغلاق بعد» و«المكان» من «عام» إلى الإعدادات › الوصول السريع."
+                ],
+                [
+                  "🎯",
+                  "تلميح أهدأ أثناء الالتقاط",
+                  "التلميح الذي يظهر أثناء الالتقاط صار أصغر وأخف، ومفتاح ⁦esc⁩ في كبسولة ناعمة."
+                ],
+                [
+                  "🎨",
+                  "لوحة نمط أوضح",
+                  "سطر فوق الألوان يوضّح هل التغيير للعنصر المحدد أم للعنصر الذي سترسمه بعده."
+                ]
+              ]
+            },
+            {
+              "h": "إصلاحات",
+              "items": [
+                [
+                  "⌨️",
+                  "لا تحديد عند فتح الإعدادات",
+                  "حين يكون التنقل بلوحة المفاتيح مفعّلًا، لم تعد الإعدادات › حول تفتح وحول «قيّمه في App Store» إطار تحديد."
+                ]
+              ]
+            }
+          ]
+        },
+        "fr": {
+          "intro": "Choisissez où apparaît l’accès rapide, mettez à jour sans quitter EasyShoot, et une indication plus discrète pendant la capture.",
+          "groups": [
+            {
+              "h": "Nouveau",
+              "items": [
+                [
+                  "📍",
+                  "Choisissez où apparaissent les vignettes",
+                  "Réglages › Accès rapide › Position affiche un petit écran avec six emplacements : en haut ou en bas, à gauche, au centre ou à droite. Les vignettes s’empilent depuis l’emplacement choisi ; en bas à gauche reste la valeur par défaut."
+                ],
+                [
+                  "⬇️",
+                  "Mettez à jour depuis EasyShoot",
+                  "Quand une nouvelle version sort, Mettre à jour ouvre la page d’EasyShoot sur l’App Store dans une fenêtre de l’app, pour l’installer sans la quitter."
+                ]
+              ]
+            },
+            {
+              "h": "Améliorations",
+              "items": [
+                [
+                  "🗂️",
+                  "L’accès rapide a sa propre page",
+                  "Afficher après la capture, Fermer après et Position passent de Général à Réglages › Accès rapide."
+                ],
+                [
+                  "🎯",
+                  "Une indication plus discrète",
+                  "L’indication pendant la capture est plus petite et plus légère, avec esc sur une touche douce."
+                ],
+                [
+                  "🎨",
+                  "Un panneau Style plus clair",
+                  "Une ligne au-dessus des couleurs indique si un changement s’applique à l’annotation sélectionnée ou à la prochaine que vous dessinez."
+                ]
+              ]
+            },
+            {
+              "h": "Corrections",
+              "items": [
+                [
+                  "⌨️",
+                  "Plus de surbrillance à l’ouverture des Réglages",
+                  "Avec la navigation au clavier activée, Réglages › À propos ne s’ouvre plus avec un contour autour de Noter sur l’App Store."
+                ]
+              ]
+            }
+          ]
+        },
+        "es": {
+          "intro": "Elige dónde aparece el acceso rápido, actualiza sin salir de EasyShoot y una indicación más discreta al capturar.",
+          "groups": [
+            {
+              "h": "Nuevo",
+              "items": [
+                [
+                  "📍",
+                  "Elige dónde aparecen las miniaturas",
+                  "Ajustes › Acceso rápido › Posición muestra una pequeña pantalla con seis posiciones: arriba o abajo, a la izquierda, en el centro o a la derecha. Las miniaturas se apilan desde la posición que elijas; abajo a la izquierda sigue siendo la predeterminada."
+                ],
+                [
+                  "⬇️",
+                  "Actualiza desde EasyShoot",
+                  "Cuando sale una versión nueva, Actualizar abre la página de EasyShoot en el App Store en una ventana dentro de la app, para instalarla sin salir."
+                ]
+              ]
+            },
+            {
+              "h": "Mejoras",
+              "items": [
+                [
+                  "🗂️",
+                  "El acceso rápido tiene su propia página",
+                  "Mostrar tras la captura, Cerrar tras y Posición pasan de General a Ajustes › Acceso rápido."
+                ],
+                [
+                  "🎯",
+                  "Una indicación más discreta",
+                  "La indicación mientras capturas es más pequeña y ligera, con esc en una tecla suave."
+                ],
+                [
+                  "🎨",
+                  "Un panel Estilo más claro",
+                  "Una línea sobre los colores indica si un cambio se aplica a la marca seleccionada o a la siguiente que dibujes."
+                ]
+              ]
+            },
+            {
+              "h": "Correcciones",
+              "items": [
+                [
+                  "⌨️",
+                  "Sin resaltado al abrir Ajustes",
+                  "Con la navegación por teclado activada, Ajustes › Acerca de ya no se abre con un borde alrededor de Valorar en el App Store."
+                ]
+              ]
+            }
+          ]
+        },
+        "de": {
+          "intro": "Wähle, wo der Schnellzugriff erscheint, aktualisiere, ohne EasyShoot zu verlassen, und ein ruhigerer Hinweis beim Aufnehmen.",
+          "groups": [
+            {
+              "h": "Neu",
+              "items": [
+                [
+                  "📍",
+                  "Wähle, wo Vorschauen erscheinen",
+                  "Einstellungen › Schnellzugriff › Position zeigt einen kleinen Bildschirm mit sechs Stellen: oben oder unten, links, in der Mitte oder rechts. Die Vorschauen stapeln sich ab der gewählten Stelle; unten links bleibt der Standard."
+                ],
+                [
+                  "⬇️",
+                  "Aktualisieren in EasyShoot",
+                  "Wenn eine neue Version erscheint, öffnet Aktualisieren die App-Store-Seite von EasyShoot in einem Fenster der App, sodass du sie installierst, ohne sie zu verlassen."
+                ]
+              ]
+            },
+            {
+              "h": "Verbessert",
+              "items": [
+                [
+                  "🗂️",
+                  "Der Schnellzugriff hat eine eigene Seite",
+                  "Nach der Aufnahme anzeigen, Schließen nach und Position sind von Allgemein nach Einstellungen › Schnellzugriff gezogen."
+                ],
+                [
+                  "🎯",
+                  "Ein ruhigerer Hinweis",
+                  "Der Hinweis beim Aufnehmen ist kleiner und leichter, mit esc auf einer weichen Taste."
+                ],
+                [
+                  "🎨",
+                  "Ein klarerer Stil-Bereich",
+                  "Eine Zeile über den Farben zeigt, ob eine Änderung für die ausgewählte Markierung oder die nächste gilt, die du zeichnest."
+                ]
+              ]
+            },
+            {
+              "h": "Behoben",
+              "items": [
+                [
+                  "⌨️",
+                  "Keine Hervorhebung beim Öffnen der Einstellungen",
+                  "Mit aktivierter Tastaturnavigation öffnet Einstellungen › Über nicht mehr mit einem Rahmen um Im App Store bewerten."
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-11-13",
       "notes": {
         "en": {
           "intro": "A shorter welcome, keyboard shortcuts in Quick Access, redesigned Settings, and a crop box you can drag from any edge.",
