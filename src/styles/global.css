@@ -71,6 +71,10 @@ h1, h2, h3 { margin: 0; font-weight: 600; letter-spacing: -.025em; }
 .nav-more summary::-webkit-details-marker { display: none; }
 .nav-more summary:hover, .nav-more[open] summary { opacity: 1; }
 .nav-more .lang-menu { top: 36px; inset-inline-end: auto; inset-inline-start: -12px; }
+.links a, .nav-more summary, .nav .btn { white-space: nowrap; }
+.brand, .nav .btn { flex-shrink: 0; }
+.nav-narrow { display: none; }
+@media (max-width: 960px) { .links .nav-wide { display: none; } .nav-narrow { display: block; } }
 @media (max-width: 640px) { .links { display: none; } }
 @media (max-width: 420px) { .nav { gap: 8px; padding-inline: 12px 6px; } .nav .btn { padding: 0 12px; } }
 
@@ -113,6 +117,18 @@ footer.site-foot { padding: 120px 0 56px; }
 .foot-cols ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
 .foot-cols a { color: var(--muted); text-decoration: none; font-size: 14px; line-height: 1.4; transition: color .15s; }
 .foot-cols a:hover { color: var(--ink); }
+.foot-sibs { margin-top: 64px; padding-top: 24px; border-top: 1px solid var(--line); }
+.foot-sibs h2 { margin: 0 0 12px; font-size: 14px; font-weight: 600; letter-spacing: 0; color: var(--muted); }
+.foot-sibs ul { list-style: none; margin: 0 -10px; padding: 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 4px 16px; }
+@media (max-width: 960px) { .foot-sibs ul { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 560px) { .foot-sibs ul { grid-template-columns: minmax(0, 1fr); } }
+.foot-sibs a { display: flex; align-items: flex-start; gap: 12px; height: 100%; padding: 10px; border-radius: 14px; text-decoration: none; color: var(--ink); transition: background .15s; }
+.foot-sibs a:hover { background: var(--surface); }
+.foot-sibs img { flex-shrink: 0; width: 36px; height: 36px; border-radius: 10px; box-shadow: 0 0 0 1px color-mix(in srgb, var(--ink) 8%, transparent); }
+.foot-sibs span { display: grid; gap: 2px; min-width: 0; }
+.foot-sibs strong { font-size: 14px; font-weight: 600; line-height: 1.3; letter-spacing: -.01em; justify-self: start; }
+.foot-sibs small { font-size: 13px; line-height: 1.4; color: var(--muted); }
+.foot-sibs + .foot-row { margin-top: 24px; }
 .foot-row { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 14px 24px; margin-top: 64px; padding: 24px 0; border-top: 1px solid var(--line); font-size: 14px; color: var(--muted); }
 .foot-row + .foot-row { margin-top: 0; }
 .foot-row p { margin: 0; }

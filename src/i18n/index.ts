@@ -14,6 +14,23 @@ export const APP_RELEASED = "2026-11-10";
 export const LANGS = ["en", "ar", "fr", "es", "de"] as const;
 export type Lang = (typeof LANGS)[number];
 
+export interface SiblingApp { logo: string; name: string; url: string; about: Record<Lang, string> }
+
+export const SIBLING_APPS: SiblingApp[] = [
+  { logo: "runarks", name: "Runarks", url: "https://runarks.com/", about: {
+    en: "Governed access to production databases", ar: "وصول مضبوط إلى قواعد بيانات الإنتاج", fr: "Accès encadré aux bases de données de production",
+    es: "Acceso controlado a bases de datos de producción", de: "Kontrollierter Zugriff auf Produktionsdatenbanken" } },
+  { logo: "pr-sift", name: "PR Sift", url: "https://haythamasalama.github.io/pr-sift/", about: {
+    en: "Chrome extension for pull request reviews", ar: "إضافة Chrome لمراجعة طلبات الدمج", fr: "Extension Chrome pour relire les pull requests",
+    es: "Extensión de Chrome para revisar pull requests", de: "Chrome-Erweiterung für Pull-Request-Reviews" } },
+  { logo: "whatsapp-business-monitor", name: "WhatsApp Business Monitor", url: "https://wbm.haythamasalama.me/", about: {
+    en: "Dashboard for WhatsApp Business", ar: "لوحة متابعة لواتساب للأعمال", fr: "Tableau de bord pour WhatsApp Business",
+    es: "Panel para WhatsApp Business", de: "Dashboard für WhatsApp Business" } },
+  { logo: "sound-sticker-maker", name: "Sound Sticker Maker", url: "https://haythamasalama.github.io/sound-sticker-maker/", about: {
+    en: "WhatsApp stickers that play sound", ar: "ملصقات واتساب بالصوت", fr: "Des stickers WhatsApp qui jouent du son",
+    es: "Stickers de WhatsApp con sonido", de: "WhatsApp-Sticker mit Ton" } },
+];
+
 export const LANG_NAMES: Record<Lang, string> = { en: "English", ar: "العربية", fr: "Français", es: "Español", de: "Deutsch" };
 export const OG_LOCALE: Record<Lang, string> = { en: "en_US", ar: "ar_AR", fr: "fr_FR", es: "es_ES", de: "de_DE" };
 

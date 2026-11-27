@@ -1,5 +1,5 @@
 ---
-import { LANGS, LANG_NAMES, APP_STORE_URL, SUPPORT_EMAIL, TERMS_URL, X_URL, AUTHOR_URL, pagePath, privacyPath, supportPath, accessibilityPath, useT, type Lang } from "../i18n";
+import { LANGS, LANG_NAMES, SIBLING_APPS, APP_STORE_URL, SUPPORT_EMAIL, TERMS_URL, X_URL, AUTHOR_URL, pagePath, privacyPath, supportPath, accessibilityPath, useT, type Lang } from "../i18n";
 import { GUIDES, COMPARES, articlePath } from "../i18n/articles";
 import AppleLogo from "./AppleLogo.astro";
 import signature from "../assets/haythamasalama-signature.svg?raw";
@@ -22,12 +22,15 @@ const supportHref = supportPath(lang);
   <div class="nav">
     <a class="brand wm" href={pagePath(lang)} dir="ltr"><img src="/icon-256.png" width="30" height="30" alt=""><span>Easy<span class="s">Shoot</span></span></a>
     <nav class="links">
-      <a href={home + "#features"}>{t("nav.features")}</a>
-      <a href={home + "#tools"}>{t("nav.tools")}</a>
-      <a href={home + "#privacy"}>{t("nav.privacy")}</a>
+      <a class="nav-wide" href={home + "#features"}>{t("nav.features")}</a>
+      <a class="nav-wide" href={home + "#tools"}>{t("nav.tools")}</a>
+      <a class="nav-wide" href={home + "#privacy"}>{t("nav.privacy")}</a>
       <details class="nav-more">
         <summary>{t("nav.resources")}<svg width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 3.5 5 6.5l3-3"/></svg></summary>
         <ul class="lang-menu">
+          <li class="nav-narrow"><a href={home + "#features"}>{t("nav.features")}</a></li>
+          <li class="nav-narrow"><a href={home + "#tools"}>{t("nav.tools")}</a></li>
+          <li class="nav-narrow"><a href={home + "#privacy"}>{t("nav.privacy")}</a></li>
           <li><a href={home + "docs/"}>{t("nav.docs")}</a></li>
           <li><a href={home + "#faq"}>{t("foot.faq")}</a></li>
           <li><a href={home + "guides/"}>{t("foot.guides")}</a></li>
@@ -59,6 +62,12 @@ const supportHref = supportPath(lang);
         <div><h2>{t("foot.compare")}</h2><ul>{COMPARES.map(a => <li><a href={articlePath(lang, a)}>{a.short[lang]}</a></li>)}</ul></div>
         <div><h2>{t("foot.help")}</h2><ul><li><a href={home + "docs/"}>{t("nav.docs")}</a></li><li><a href={supportHref}>{t("foot.support")}</a></li><li><a href={home + "changelog/"}>{t("foot.changelog")}</a></li><li><a href={home + "press/"}>{t("foot.press")}</a></li><li><a href={home + "sitemap/"}>{t("map.title")}</a></li></ul></div>
       </nav>
+    <section class="foot-sibs" aria-labelledby="foot-sibs-h">
+      <h2 id="foot-sibs-h">{t("foot.siblings")}</h2>
+      <ul>
+        {SIBLING_APPS.map(a => <li><a href={a.url} rel="noopener"><img src={`/apps/${a.logo}.svg`} width="36" height="36" alt="" loading="lazy"><span><strong dir="ltr">{a.name}</strong><small>{a.about[lang]}</small></span></a></li>)}
+      </ul>
+    </section>
     <div class="foot-row">
       <p>{t("foot.ask")} <a href={`mailto:${SUPPORT_EMAIL}`} dir="ltr">{SUPPORT_EMAIL}</a>.</p>
       <div class="foot-end">
