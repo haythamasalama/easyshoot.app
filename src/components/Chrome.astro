@@ -1,5 +1,5 @@
 ---
-import { LANGS, LANG_NAMES, APP_STORE_URL, SUPPORT_EMAIL, TERMS_URL, X_URL, AUTHOR_URL, pagePath, privacyPath, supportPath, accessibilityPath, useT, type Lang } from "../i18n";
+import { LANGS, LANG_NAMES, SIBLING_APPS, APP_STORE_URL, SUPPORT_EMAIL, TERMS_URL, X_URL, AUTHOR_URL, pagePath, privacyPath, supportPath, accessibilityPath, useT, type Lang } from "../i18n";
 import { GUIDES, COMPARES, articlePath } from "../i18n/articles";
 import AppleLogo from "./AppleLogo.astro";
 import signature from "../assets/haythamasalama-signature.svg?raw";
@@ -59,6 +59,12 @@ const supportHref = supportPath(lang);
         <div><h2>{t("foot.compare")}</h2><ul>{COMPARES.map(a => <li><a href={articlePath(lang, a)}>{a.short[lang]}</a></li>)}</ul></div>
         <div><h2>{t("foot.help")}</h2><ul><li><a href={home + "docs/"}>{t("nav.docs")}</a></li><li><a href={supportHref}>{t("foot.support")}</a></li><li><a href={home + "changelog/"}>{t("foot.changelog")}</a></li><li><a href={home + "press/"}>{t("foot.press")}</a></li><li><a href={home + "sitemap/"}>{t("map.title")}</a></li></ul></div>
       </nav>
+    <section class="foot-sibs" aria-labelledby="foot-sibs-h">
+      <h2 id="foot-sibs-h">{t("foot.siblings")}</h2>
+      <ul>
+        {SIBLING_APPS.map(a => <li><a href={a.url} rel="noopener"><img src={`/apps/${a.logo}.svg`} width="36" height="36" alt="" loading="lazy"><span><strong dir="ltr">{a.name}</strong><small>{a.about[lang]}</small></span></a></li>)}
+      </ul>
+    </section>
     <div class="foot-row">
       <p>{t("foot.ask")} <a href={`mailto:${SUPPORT_EMAIL}`} dir="ltr">{SUPPORT_EMAIL}</a>.</p>
       <div class="foot-end">
