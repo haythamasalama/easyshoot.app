@@ -71,6 +71,10 @@ h1, h2, h3 { margin: 0; font-weight: 600; letter-spacing: -.025em; }
 .nav-more summary::-webkit-details-marker { display: none; }
 .nav-more summary:hover, .nav-more[open] summary { opacity: 1; }
 .nav-more .lang-menu { top: 36px; inset-inline-end: auto; inset-inline-start: -12px; }
+.links a, .nav-more summary, .nav .btn { white-space: nowrap; }
+.brand, .nav .btn { flex-shrink: 0; }
+.nav-narrow { display: none; }
+@media (max-width: 960px) { .links .nav-wide { display: none; } .nav-narrow { display: block; } }
 @media (max-width: 640px) { .links { display: none; } }
 @media (max-width: 420px) { .nav { gap: 8px; padding-inline: 12px 6px; } .nav .btn { padding: 0 12px; } }
 
