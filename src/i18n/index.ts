@@ -26,7 +26,7 @@ export const SIBLING_APPS: SiblingApp[] = [
   { logo: "whatsapp-business-monitor", name: "WhatsApp Business Monitor", url: "https://wbm.haythamasalama.me/", about: {
     en: "Dashboard for WhatsApp Business", ar: "لوحة متابعة لواتساب للأعمال", fr: "Tableau de bord pour WhatsApp Business",
     es: "Panel para WhatsApp Business", de: "Dashboard für WhatsApp Business" } },
-  { logo: "sound-sticker-maker", name: "Sound Sticker Maker", url: "https://haythamasalama.github.io/sound-sticker-maker/", about: {
+  { logo: "sound-sticker-maker", name: "Sound Sticker Maker", url: "https://sound-sticker-maker.haythamasalama.me/", about: {
     en: "WhatsApp stickers that play sound", ar: "ملصقات واتساب بالصوت", fr: "Des stickers WhatsApp qui jouent du son",
     es: "Stickers de WhatsApp con sonido", de: "WhatsApp-Sticker mit Ton" } },
 ];
